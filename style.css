@@ -7,8 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a,
-button {
+a, button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
@@ -91,7 +90,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -639,16 +637,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
+h1, h2,  h3, h4, h5, h6, p, label, .btn,  a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -677,7 +666,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -723,11 +712,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: coral!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: coral!important;
 }
 
 .icons {
@@ -763,7 +752,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: #ffffff2c;
 }
 
 .bgc-dark-slate-blue {
@@ -775,7 +764,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
