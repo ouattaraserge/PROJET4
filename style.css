@@ -90,6 +90,15 @@ a:hover {
 }
 
 .texture-paper::before {
+    background: url(img/texture-paper.png);
+    background-image: url(img/texture-paper.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: 280px 280px;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
     background-size: 280px 280px;
 }
 
@@ -799,11 +808,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.jpg");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.jpg");
 }
 
 .bg-banniere {
@@ -811,7 +820,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
