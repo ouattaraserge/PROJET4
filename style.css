@@ -685,6 +685,7 @@ h1, h2,  h3, h4, h5, h6, p, label, .btn,  a {
 
 p {
     font-size: 16px;
+    color: #000000;
 }
 
 .tight-width-whitespace {
@@ -844,10 +845,6 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    img {
-        vertical-align: center;
-    }
-    
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -857,9 +854,6 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
-    img {
-        vertical-align: center;
-    }
     
 }
 
@@ -867,20 +861,12 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    img {
-        vertical-align: center;
-    }
-    
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
-    img {
-        vertical-align: center;
-    }
-    
 }
 
 @media (max-width: 991px) {
@@ -910,10 +896,6 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
-    img {
-        vertical-align: center;
-    }
-    
 }
 
 @media (max-width: 767px) {
@@ -1053,10 +1035,6 @@ h4 {
         width: 180px;
         height: 320px;
     }
-    img {
-        vertical-align: center;
-    }
-    
 }
 
 @media (max-width: 400px) {
@@ -1064,18 +1042,12 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    img {
-        vertical-align: center;
-    }
     
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
-    }
-    img {
-       vertical-align: center;
     }
     
 }
